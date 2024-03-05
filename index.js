@@ -15,7 +15,7 @@ class JassCheckChecker {
     }
   
     checkString(value) {
-      return typeof value === 'string';
+      return typeof value == 'string';
     }
   
     checkNumber(value) {
